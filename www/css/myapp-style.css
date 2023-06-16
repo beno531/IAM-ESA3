@@ -1,0 +1,34 @@
+/* Modifiziert im Pair Programming Verfahren durch: Benito Ernst, Arthur Muszynski */
+main ul li {
+    object-fit: cover;
+}
+
+#mediaReadview img {
+    max-width: 100%;
+    width: 100%;
+}
+
+#mediaOverview #currentCRUDScope {
+    font-style: italic;
+    height: calc(100% - 20px);
+    padding: 10px;
+}
+
+#itemConfirmDeletionForm > h2 {
+    border-bottom: 0;
+    font-size: smaller;
+    padding: 0;
+    text-transform: none;
+}
+
+.custom-prev-image{
+    margin-left: 12px;
+    margin-bottom: 10px;
+    max-height: 100px;
+    max-width: 100px;
+}
+
+.readview-description{
+    margin: 10px;
+    font-size: 16px;
+}
